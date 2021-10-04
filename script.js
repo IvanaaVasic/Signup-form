@@ -15,7 +15,7 @@ function submitForm() {
       errorMessages[i].classList.remove("hidden");
       textFields[i].classList.add("error-email");
       textFields[i].value = "";
-      textFields[i].placeholder = "email@example/com";
+      textFields[i].placeholder = "email@example.com";
       errorMessages[i].innerText = "Looks like this is not an email!";
     } else {
       errorMessages[i].classList.add("hidden");
