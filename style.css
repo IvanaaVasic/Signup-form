@@ -58,7 +58,6 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 70vh;
   grid-template-areas: "headerContainer signup ";
   grid-gap: 50px;
   max-width: 80vw;
